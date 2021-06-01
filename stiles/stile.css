@@ -1,0 +1,77 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #c7996e;
+  padding: 20px 0;
+  text-align: end;
+}
+
+.header .cart-button {
+  padding: 5px 20px;
+  border-radius: 20px;
+  display: block;
+  border: none;
+  outline: none;
+  position: relative;
+  left: 100%;
+  -webkit-transform: translate(-100%, 0);
+          transform: translate(-100%, 0);
+  background-color: #4d402f;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.header .cart-button:hover {
+  background-color: rgba(155, 111, 53, 0.726);
+  /* Green */
+  color: black;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+.main {
+  background-color: #ceb18a;
+  padding: 20px 0;
+}
+
+.main .goods-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main .goods-list .goods-item {
+  width: 18%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 30px 10px;
+  text-align: center;
+  border: 5px solid #4d402f;
+  border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.main .goods-list .goods-item:hover {
+  background-color: rgba(155, 111, 53, 0.726);
+  /* Green */
+  color: black;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=stile.css.map */
